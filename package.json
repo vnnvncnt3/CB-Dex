@@ -1,0 +1,25 @@
+{
+  "name": "cardbooth",
+  "version": "1.0.0",
+  "description": "A mobile-friendly reservation site for a Pokémon-themed photobooth. Built with Blazor WebAssembly, Tailwind CSS and Supabase.",
+  "main": "index.js",
+  "scripts": {
+    "css:build": "tailwindcss -i ./Cardbooth/Styles/tailwind.css -o ./Cardbooth/wwwroot/css/tailwind.css --minify",
+    "css:watch": "tailwindcss -i ./Cardbooth/Styles/tailwind.css -o ./Cardbooth/wwwroot/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnnvncnt3/CB-Dex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vnnvncnt3/CB-Dex/issues"
+  },
+  "homepage": "https://github.com/vnnvncnt3/CB-Dex#readme",
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
