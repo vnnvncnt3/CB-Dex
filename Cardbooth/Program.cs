@@ -1,4 +1,3 @@
-using Cardbooth.Client.Pages;
 using Cardbooth.Components;
 
 var builder = WebApplication.CreateBuilder(args);
